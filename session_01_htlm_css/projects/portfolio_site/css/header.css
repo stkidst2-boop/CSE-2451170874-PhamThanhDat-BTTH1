@@ -1,0 +1,45 @@
+header {
+    position: sticky;
+    padding: 20px 0px;
+    top: 0;
+    z-index: 1000;
+    background: var(--color-light);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.logo {
+    font-weight: bold;
+    color: deepskyblue;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    margin-right: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color:deepskyblue;
+}
+
+.menu-toggle {display: none;}
+.menu-toggle:checked ~ nav {display: flex;}
