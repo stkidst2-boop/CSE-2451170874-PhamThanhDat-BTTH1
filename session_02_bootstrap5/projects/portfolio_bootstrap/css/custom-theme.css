@@ -1,0 +1,95 @@
+.portfolio-page {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(180deg, #f8faf7 0%, #fff 100%);
+    color: #1c2f22;
+}
+
+.navbar-brand {
+    letter-spacing: 0.15em;
+}
+
+.hero-section {
+    min-height: 90vh;
+    background: radial-gradient(circle at top left, #87b57a 0%, #1d4e44 55%);
+    color: #ffffff;
+}
+
+.profile-card {
+    max-width: 320px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 2rem;
+}
+
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.section-title {
+    font-size: clamp(1.9rem, 2.3vw, 2.6rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.info-card,
+.project-card,
+.blog-card,
+.comment-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.info-card:hover,
+.project-card:hover,
+.blog-card:hover,
+.comment-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(31, 51, 38, 0.08);
+}
+
+.info-card {
+    background: #ffffff;
+}
+
+.project-card {
+    background: #ffffff;
+}
+
+.blog-card {
+    overflow: hidden;
+}
+
+.blog-card .badge {
+    font-size: 0.85rem;
+}
+
+.comment-card {
+    background: #f4f8f7;
+}
+
+.comment-card .avatar {
+    width: 48px;
+    height: 48px;
+    font-weight: 700;
+}
+
+.blog-page {
+    font-family: 'Inter', sans-serif;
+}
+
+.blog-hero {
+    min-height: 48vh;
+    background: linear-gradient(135deg, #155d6b 0%, #0e2f35 100%);
+}
+
+.footer-section {
+    background: #e8f0ea;
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        padding-top: 6rem;
+    }
+}
